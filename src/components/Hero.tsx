@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
             </h1>
             
             <p className="text-xl text-gray-300 max-w-lg">
-              Deploy autonomous AI agents that manage, optimize, and grow your crypto portfolio based on your preferences—no spreadsheets, Discord alerts, or manual trades required.
+            Titan AI builds intelligent agents that manage your crypto capital automatically. Maximize yield, minimize risk, and skip the spreadsheets.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">

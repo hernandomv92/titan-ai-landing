@@ -9,7 +9,7 @@ import Roadmap from './components/Roadmap';
 import Team from './components/Team';
 import Tokenomics from './components/Tokenomics';
 import Footer from './components/Footer';
-
+//import WhyTitan from './components/WhyTitan';
 // Add custom class for grid pattern
 import './styles/index.css';
 

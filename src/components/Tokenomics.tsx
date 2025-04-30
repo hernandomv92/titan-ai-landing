@@ -30,11 +30,12 @@ const Tokenomics: React.FC = () => {
             </span> Token
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            Powering the next generation of autonomous finance
+            The backbone of Titan AI — enabling access, coordination, and aligned incentives across the ecosystem.
           </p>
         </div>
         
         <div className="grid lg:grid-cols-2 gap-12 items-center">
+          {/* Left Column: Token details and allocation */}
           <div className="bg-gradient-to-b from-slate-900 to-slate-950 p-6 rounded-xl border border-gray-800 shadow-xl">
             <div className="relative mb-8">
               <div className="absolute top-0 right-0 -mt-8 -mr-8 w-32 h-32 rounded-full bg-blue-500/10 blur-2xl opacity-70"></div>
@@ -60,7 +61,6 @@ const Tokenomics: React.FC = () => {
             
             <div className="mb-8">
               <h4 className="text-lg font-semibold text-white mb-4">Token Allocation</h4>
-              
               <div className="space-y-4">
                 <div className="flex h-6 rounded-full overflow-hidden">
                   {allocations.map((allocation, index) => (
@@ -114,7 +114,8 @@ const Tokenomics: React.FC = () => {
               </div>
             </div>
           </div>
-          
+
+          {/* Right Column: Token utility */}
           <div className="space-y-8">
             <h3 className="text-2xl font-semibold text-white">Token Utility</h3>
             
@@ -124,13 +125,13 @@ const Tokenomics: React.FC = () => {
                   <DollarSign className="w-6 h-6 text-blue-400" />
                 </div>
                 <div>
-                  <h4 className="text-xl font-medium text-white mb-1">Staking Rewards</h4>
+                  <h4 className="text-xl font-medium text-white mb-1">Staking</h4>
                   <p className="text-gray-400">
-                    Stake TITAN tokens to earn a share of protocol revenue and receive enhanced agent capabilities.
+                    Earn protocol revenue and agent upgrades by staking TITAN. Align your interests with long-term growth.
                   </p>
                 </div>
               </div>
-              
+
               <div className="flex">
                 <div className="w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center mr-4 shrink-0">
                   <Users className="w-6 h-6 text-blue-400" />
@@ -138,11 +139,11 @@ const Tokenomics: React.FC = () => {
                 <div>
                   <h4 className="text-xl font-medium text-white mb-1">Governance</h4>
                   <p className="text-gray-400">
-                    Vote on important protocol decisions, including new agent strategies, fee structures, and treasury allocations.
+                    Vote on protocol upgrades, treasury allocation, and AI agent policies—ensuring decentralized control.
                   </p>
                 </div>
               </div>
-              
+
               <div className="flex">
                 <div className="w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center mr-4 shrink-0">
                   <Lock className="w-6 h-6 text-blue-400" />
@@ -150,30 +151,29 @@ const Tokenomics: React.FC = () => {
                 <div>
                   <h4 className="text-xl font-medium text-white mb-1">Access Control</h4>
                   <p className="text-gray-400">
-                    Hold TITAN tokens to access premium AI agent features, early strategy releases, and higher portfolio limits.
+                    TITAN tokens unlock access to premium agent tiers, early product releases, and advanced portfolio features.
                   </p>
                 </div>
               </div>
-              
+
               <div className="flex">
                 <div className="w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center mr-4 shrink-0">
                   <Globe className="w-6 h-6 text-blue-400" />
                 </div>
                 <div>
-                  <h4 className="text-xl font-medium text-white mb-1">Network Growth</h4>
+                  <h4 className="text-xl font-medium text-white mb-1">Growth Incentives</h4>
                   <p className="text-gray-400">
-                    Participate in referral programs and community incentives for expanding the Titan ecosystem.
+                    Participate in referral campaigns, agent sharing, and other community initiatives to grow the ecosystem.
                   </p>
                 </div>
               </div>
             </div>
-            
+
             <div className="pt-6">
               <div className="bg-gradient-to-r from-blue-900/50 to-purple-900/50 p-6 rounded-lg border border-blue-800/30">
                 <h4 className="text-lg font-medium text-white mb-2">Early Access Token Allocation</h4>
                 <p className="text-gray-300 mb-4">
-                  Join our waitlist to be eligible for the early supporter token allocation. Early adopters receive 
-                  exclusive benefits and token grants based on their portfolio size and activity.
+                  Be part of Titan’s genesis—early adopters earn exclusive benefits and priority token access based on usage and activity.
                 </p>
                 <button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-3 rounded-full font-medium transition-all shadow-lg hover:shadow-blue-500/25 w-full">
                   Join Token Waitlist

@@ -5,18 +5,18 @@ const Problem: React.FC = () => {
   const problems = [
     {
       icon: <Clock className="w-8 h-8 text-red-400" />,
-      title: "Time-Consuming",
-      description: "Managing crypto investments requires constant monitoring of market conditions, news, and technical indicators."
+      title: "Wasted Time",
+      description: "Most DeFi users spend 10–20 hours per week managing their portfolios — and still underperform the market."
     },
     {
       icon: <TrendingDown className="w-8 h-8 text-red-400" />,
-      title: "Emotional Decisions",
-      description: "Fear and greed lead to poor timing, panic selling during downturns, and FOMO buying at market peaks."
+      title: "Missed Yield",
+      description: "Over $10B in yield is left unclaimed annually due to poor optimization and inefficient manual strategies."
     },
     {
       icon: <Brain className="w-8 h-8 text-red-400" />,
       title: "Overwhelming Complexity",
-      description: "Thousands of tokens, complex DeFi protocols, and rapidly changing conditions exceed human processing capacity."
+      description: "Thousands of tokens, protocols, and market signals exceed human decision-making capacity — leading to errors and missed opportunities."
     }
   ];
 
@@ -60,17 +60,16 @@ const Problem: React.FC = () => {
         <div className="mt-16 bg-gradient-to-r from-slate-900 to-slate-900/50 p-6 rounded-xl border border-gray-800">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-2/3 mb-6 md:mb-0 md:pr-8">
-              <h3 className="text-2xl font-semibold text-white mb-3">The Cost of Manual Management</h3>
+              <h3 className="text-2xl font-semibold text-white mb-3">The Cost of Going Manual</h3>
               <p className="text-gray-400">
-                The average crypto investor misses out on 40-60% of potential returns due to emotional decision-making, 
-                limited time for research, and inability to process the vast amount of market data. This represents 
-                thousands or even millions in lost opportunity cost.
+              Manual trading leads to poor timing, inconsistent risk exposure, and emotional mistakes. Crypto investors are losing 
+              40–60% of potential returns simply by trying to manage everything themselves.
               </p>
             </div>
             <div className="md:w-1/3 bg-slate-900 p-5 rounded-lg border border-gray-800">
               <div className="text-center">
                 <div className="text-5xl font-bold text-red-400 mb-2">40-60%</div>
-                <div className="text-gray-400 text-sm">Average yield opportunity lost</div>
+                <div className="text-gray-400 text-sm">Potential yield lost without automation</div>
               </div>
               <div className="mt-4 pt-4 border-t border-gray-800">
                 <div className="flex justify-between text-sm">
